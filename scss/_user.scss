@@ -1,0 +1,33 @@
+// 
+// 
+// user.scss
+//
+// Place your own sparrow CSS or SCSS rules below this line, these rules will override any Bootstrap and theme variables.
+
+#studio-features-1 {
+    // background-image: url("/pages/assets/img/trdvbackdrop.png");
+    background-size:contain;
+    background:  center no-repeat;
+
+    h2,p {
+        font-family: 'Playfair Display', serif;
+        color: white;
+        font-weight: bold;
+    }
+
+    h3, h4 {
+        font-family: 'Playfair Display', serif;
+        color: black;
+        font-weight: bold;
+    }
+}
+
+.bg-red {
+    background-color: #B7272E !important;
+}
+
+#promotion-partners {
+    .col-lg-auto {
+        flex: 1 0 auto;
+    }
+}
